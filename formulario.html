@@ -5,15 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulários no HTML</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
 
-        <h1>Formulários no HTML</h1>
-
         <form action="http://google.com/search" method="get">
             <label for="pesquisar">Pesquise no Google</label>
-            <input type="text" name="q" id="pesquisar">
+            <input id="pesquisar" type="text" name="q" 
+            placeholder="Pesquise com o Google..." autofocus required>
             <button type="submit">Pesquisar</button>
         </form>
         
